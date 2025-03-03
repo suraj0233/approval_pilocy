@@ -6,7 +6,7 @@ package spacelift
 
 # Define security team members by their login names
 security_team = [
-    "suraj.jadhav@zuplon.com"
+    "suraj0233"
       
 ]
 EOT
