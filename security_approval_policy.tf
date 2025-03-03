@@ -1,3 +1,12 @@
+terraform {
+  required_providers {
+    spacelift = {
+      source  = "spacelift-io/spacelift"
+      version = "~> 1.0" # Use the latest compatible version
+    }
+  }
+}
+
 resource "spacelift_policy" "iam_security_approval" {
   name = "require-security-approval-for-iam"
   body = <<EOT
